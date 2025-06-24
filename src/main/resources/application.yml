@@ -1,13 +1,12 @@
 server:
   port: 6618
 
-
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/scancall?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://sh-cynosdbmysql-grp-qn7ic9iq.sql.tencentcdb.com:22277/scancall?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
     username: root
-    password: root
+    password: s8pK9fXX
   mvc:
     view:
       suffix: .html
