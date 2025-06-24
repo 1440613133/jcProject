@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tencent.wxcloudrun.mapper.UserMapper">
+    <!-- 可以在这里添加复杂的SQL查询 -->
+    <!-- 例如，查询用户信息 -->
+    <select id="findByCarNumber" parameterType="String" resultType="com.tencent.wxcloudrun.model.User">
+            SELECT * FROM user WHERE carNumber = #{carNumber}
+    </select>
+</mapper>
