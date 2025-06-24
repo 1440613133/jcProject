@@ -55,4 +55,6 @@ public class UserController {
     }
     return Result.failed(ResultCode.FAILED, "车牌号识别失败");
   }
+
+
 }

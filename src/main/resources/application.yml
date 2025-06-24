@@ -7,10 +7,7 @@ spring:
     url: jdbc:mysql://sh-cynosdbmysql-grp-qn7ic9iq.sql.tencentcdb.com:22277/scancall?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: s8pK9fXX
-  mvc:
-    view:
-      suffix: .html
-      prefix: /
+
 
 mybatis:
   mapper-locations: classpath*:mapper/*Mapper.xml
